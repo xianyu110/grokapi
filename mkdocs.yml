@@ -1,52 +1,129 @@
-site_name: Grok API Guide
-site_description: Comprehensive guide for using Grok 4 series models via API
-site_author: Grok API Guide
-repo_url: https://github.com/xianyu110/grokapi
-site_url: https://xianyu110.github.io/grokapi/
+site_name: "🚀 Grok API 中转站指南"
+site_description: "中文用户快速体验 Grok 4 系列模型的实用指南"
+site_author: "Grok API Guide"
+repo_url: "https://github.com/xianyu110/grokapi"
+site_url: "https://xianyu110.github.io/grokapi/"
 
 theme:
   name: material
-  language: en
+  language: zh
+  custom_dir: docs/overrides
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
     - toc.integrate
     - search.suggest
     - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
   palette:
-    - scheme: default
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
       accent: blue
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
+        name: 切换到深色模式
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue
       accent: blue
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换到浅色模式
+
+  font:
+    text: "Noto Sans SC"
+    code: "Fira Code"
+
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/rocket-launch
 
 nav:
-  - Home: index.md
-  - 中文文档: zh.md
-  - Models: models.md
+  - 首页: index.md
+  - 使用指南:
+    - zh.md
+    - api.md
+  - 模型参考: models.md
 
 plugins:
   - search:
-      lang: en, zh
+      separator: '[\s\-\.]+'
+      lang:
+        - zh
+        - en
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Asia/Shanghai
 
 markdown_extensions:
-  - codehilite
   - admonition
+  - codehilite:
+      linenums: true
   - toc:
       permalink: true
+      toc_depth: 3
   - tables
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      use_pygments: true
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            startinline: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
 
 extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/xianyu110/grokapi
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@example.com
 
-copyright: Copyright &copy; 2025 Grok API Guide
+  generator: false
+
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+copyright: |
+  &copy; 2025 Grok API Guide -
+  <a href="#__consent">更改Cookie设置</a>

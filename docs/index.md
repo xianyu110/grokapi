@@ -1,32 +1,97 @@
-# Grok API Guide
+# 🚀 Grok API 中转站指南
 
-This site provides a comprehensive guide for using Grok 4 series models via third-party API relay services.
+!!! quote "项目简介"
+    中文用户快速体验 **Grok 4 系列模型**的实用指南
 
-## Supported Models
+    ✅ 支持 Grok 4、Grok 4 Heavy、Grok 4.1
+    ✅ 国内可用｜中文友好｜低门槛使用
 
-- **Grok 4**: General-purpose model for daily conversations and Q&A
-- **Grok 4 Heavy**: High-performance model for complex reasoning and programming
-- **Grok 4.1**: Optimized iteration for high-quality writing and content generation
+## 🎯 适合人群
 
-## Quick Start
+*   **普通用户 / AI 爱好者** - 日常对话与问答
+*   **内容创作者 / 自媒体** - 创作与内容生成
+*   **开发者 / API 测试** - 技术开发与测试
+*   **需要中文体验的用户** - 优化的中文交互
 
-1. Get your API key from a relay service provider
-2. Configure your request parameters
-3. Call the appropriate model endpoint
+## 🔗 推荐入口
 
-## API Example
+<div class="grid cards" markdown>
 
-```bash
-curl -X POST "https://your-proxy-endpoint.com/v1/chat/completions" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "grok-4",
-    "messages": [{"role": "user", "content": "Hello!"}]
-  }'
-```
+-   :material-rocket-launch{ .lg .middle } __Grok API 中转站__
 
-## Documentation
+    ---
 
-- [中文文档](zh.md) - Chinese documentation
-- [Models](models.md) - Complete model reference
+    稳定可靠的 API 服务
+
+    [:arrow_right: 立即访问](https://apipro.maynor1024.live/)
+
+-   :material-link{ .lg .middle } __Grok 镜像站聚合页__
+
+    ---
+
+    多个镜像站点选择
+
+    [:arrow_right: 查看更多](https://maynorai.top/list/#/home/)
+
+</div>
+
+!!! info "重要提示"
+    本项目仅做信息整理与使用说明，不提供模型本体服务。
+
+## 🧠 Grok 4 系列模型
+
+| 模型 | 定位 | 适合场景 | 特点 |
+|---|---|---|---|
+| **Grok 4** | 通用模型 | 对话、问答、翻译 | 基础功能完善 |
+| **Grok 4 Heavy** | 高性能模型 | 编程、分析、复杂推理 | 强大的推理能力 |
+| **Grok 4.1** | 优化迭代版 | 写作、创作、内容生成 | 质量与流畅度优化 |
+
+## 🆚 中转站 vs 官网对比
+
+| 对比项 | Grok 官网 | Grok API 中转站 |
+|---|:---:|:---:|
+| 国内访问 | 🔴 可能受限 | 🟢 更顺畅 |
+| 注册门槛 | 🔴 较高 | 🟢 低 |
+| 中文优化 | 🟡 通用 | 🟢 更友好 |
+| 使用成本 | 🔴 较高 | 🟢 灵活 |
+
+## 🚀 使用方法
+
+1. **打开中转站地址** - 点击上方推荐链接
+2. **扫码或免注册进入** - 快速开始使用
+3. **选择模型** - Grok 4 / 4 Heavy / 4.1
+4. **开始对话** - 体验强大的 AI 能力
+
+## ❓ 常见问题
+
+??? question "Grok API 中转站是官方服务吗？"
+    不是，通常为第三方平台提供的模型访问服务。
+
+??? question "Grok 4 国内可以使用吗？"
+    可以，通过 Grok API 中转站或镜像站使用。
+
+??? question "是否免费？"
+    部分平台提供免费体验额度，高频或高级功能可能需要付��。
+
+## 📚 更多文档
+
+*   [**模型详情**](models.md) - 完整的模型参考
+*   [**中文指南**](zh.md) - 详细的使用说明
+*   [**API 文档**](api.md) - 开发者接口文档
+
+---
+
+!!! warning "免责声明"
+    - 本项目不隶属于 xAI 或 Grok 官方
+    - 内容仅用于信息整理与技术交流
+    - 请勿输入个人隐私或敏感信息
+    - 实际模型能力以平台实现为准
+
+## 🌟 支持项目
+
+如果本项目对你有帮助，欢迎 **Star ⭐ / Fork 🍴 / 分享**
+
+后续将持续更新：
+- Grok 模型版本变化
+- 可用镜像站信息
+- 使用技巧与对比说明
