@@ -1,0 +1,23 @@
+{
+  "updated": "2025-01",
+  "models": [
+    {
+      "name": "Grok 4",
+      "type": "general",
+      "description_zh": "第四代通用模型，适合日常对话与问答",
+      "description_en": "Fourth-generation general-purpose model"
+    },
+    {
+      "name": "Grok 4 Heavy",
+      "type": "heavy",
+      "description_zh": "高性能版本，适合复杂推理与编程",
+      "description_en": "High-performance version for complex reasoning"
+    },
+    {
+      "name": "Grok 4.1",
+      "type": "optimized",
+      "description_zh": "优化迭代版，适合高质量写作与内容生成",
+      "description_en": "Optimized iteration for writing and content generation"
+    }
+  ]
+}
