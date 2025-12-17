@@ -16,11 +16,22 @@
 - **Grok 4.1**：优化迭代版，适合高质量写作与内容生成
 <!-- MODELS_ZH_END -->
 
+### 🔗 推荐入口
+
+- **Grok API 中转站**
+  👉 https://apipro.maynor1024.live/
+
+- **Grok 镜像站聚合页**
+  👉 https://maynorai.top/list/#/home/
+
+> 本项目仅做信息整理与使用说明，不提供模型本体服务。
+
 ### 使用方式
 
-1. 获取 API 密钥
-2. 配置请求参数
-3. 调用相应的模型端点
+1. 打开中转站地址
+2. 获取 API 密钥或扫码进入
+3. 配置请求参数
+4. 调用相应的模型端点
 
 ### API 端点示例
 
@@ -68,9 +79,9 @@ curl -X POST "https://your-proxy-endpoint.com/v1/chat/completions" \
 
 ---
 
-## 📚 Documentation
+## 📚 文档
 
-Visit our [GitHub Pages documentation](https://yourusername.github.io/grok-api-guide/) for detailed guides.
+访问我们的 [GitHub Pages 文档站](https://xianyu110.github.io/grokapi/) 获取详细指南。
 
 ---
 
