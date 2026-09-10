@@ -23,7 +23,7 @@
 
     稳定可靠的 API 服务
 
-    [:arrow_right: 立即访问](https://apipro.maynor1024.live/)
+    [:arrow_right: 立即访问](https://tryallapi.com/)
 
 -   :material-link{ .lg .middle } __Grok 镜像站聚合页__
 
@@ -31,7 +31,7 @@
 
     多个镜像站点选择
 
-    [:arrow_right: 查看更多](https://maynorai.top/list/#/home/)
+    [:arrow_right: 查看更多](https://trygpt.asia/list/#/home/)
 
 </div>
 

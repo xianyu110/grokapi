@@ -21,10 +21,10 @@
 ## 🔗 推荐入口
 
 - **Grok API 中转站**  
-  👉 https://apipro.maynor1024.live/
+  👉 https://tryallapi.com/
 
 - **Grok 镜像站聚合页**  
-  👉 https://maynorai.top/list/#/home/
+  👉 https://trygpt.asia/list/#/home/
 
 > 本项目仅做信息整理与使用说明，不提供模型本体服务。
 
